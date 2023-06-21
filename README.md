@@ -1,0 +1,1 @@
+A browser version of an Etch a Sketch toy for [The Odin Project](https://www.theodinproject.com/)
