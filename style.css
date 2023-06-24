@@ -1,25 +1,42 @@
 body {
-    background-color: maroon;
-}
+    background-color: #ffcad4;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    margin: 0;
 
-.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 50px;
+}
+
+h1 {
+    margin: 8px 16px;
+    color: #FFDF6B;
+}
+
+.header {
+    background-color: #FF5A5F;
+    border-bottom: 2px solid #FFDF6B;
 }
 
 .grid {
     display: flex;
     width: 500px;
     height: 500px;
-    gap: 2px;
+    
+    border-color: #FF5A5F;
+    border-width: 20px;
+    border-radius: 5px;
+    border-style: solid;
+
+    align-self: center;
+
 }
 
 .column {
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 2px;
 }
 
 .square {
